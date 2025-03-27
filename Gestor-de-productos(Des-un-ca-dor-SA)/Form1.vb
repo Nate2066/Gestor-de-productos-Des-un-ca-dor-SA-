@@ -1,6 +1,11 @@
 ﻿Public Class Form1
     Dim formularioFactura As Factura
     Dim costoProducto, comision As Decimal
+    'Integrantes:
+    'Lia Betzaida Matamoros Martinez      2024-0220N
+    'Alexania Jenasha Centeno Pauth       2024-0248N
+    'Victor Alejandro Martinez Castellon  2024-0277N
+    'Frederick Natanael Rivera Valdivia   2024-0229N
     Private Sub btnFacturar_Click(sender As Object, e As EventArgs) Handles btnFacturar.Click
         formularioFactura = Factura
         If txtNombreCliente.Text <> Nothing And txtSalarioCliente.Text <> Nothing And txtPrecioProducto.Text <> Nothing Then

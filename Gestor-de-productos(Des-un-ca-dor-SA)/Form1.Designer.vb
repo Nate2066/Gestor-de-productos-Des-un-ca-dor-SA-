@@ -33,6 +33,7 @@ Partial Class Form1
         Label5 = New Label()
         ckbIncluirSeguro = New CheckBox()
         btnFacturar = New Button()
+        Label6 = New Label()
         SuspendLayout()
         ' 
         ' Label1
@@ -129,11 +130,22 @@ Partial Class Form1
         btnFacturar.Text = "Facturar"
         btnFacturar.UseVisualStyleBackColor = True
         ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.BackColor = Color.IndianRed
+        Label6.Location = New Point(116, 275)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(183, 15)
+        Label6.TabIndex = 12
+        Label6.Text = "Integrantes al inicio del codigo :D"
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(311, 273)
+        ClientSize = New Size(311, 302)
+        Controls.Add(Label6)
         Controls.Add(btnFacturar)
         Controls.Add(ckbIncluirSeguro)
         Controls.Add(Label5)
@@ -163,5 +175,6 @@ Partial Class Form1
     Friend WithEvents Label5 As Label
     Friend WithEvents ckbIncluirSeguro As CheckBox
     Friend WithEvents btnFacturar As Button
+    Friend WithEvents Label6 As Label
 
 End Class
